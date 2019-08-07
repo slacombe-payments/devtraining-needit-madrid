@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="64" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Did you call the Incident Manager?" max_length="40" name="x_58872_needit_did_you_call_the_incident_manager" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element inactive_on_update="false" label="Yes" value="Yes"/>
+            </choice>
+        </element>
+    </element>
+</database>
